@@ -14,11 +14,11 @@ The notebook <code>Project_1B.ipynb</code> explains in more detail the full ETL 
 
 The notebook <code>Project_1B.ipynb</code> explains in more detail the queries develped. In summary, there are three tables created from the streamlined CSV file:
 
-| Table Name  | Columns (Types)                                                                                                                | | Primary Key(s) |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| songInfo    | sessionId (int)<br>itemInSession (int)<br>artist (text)<br>song (text)<br>length (float)                                      | sessionId<br>itemInSession |
-| userInfo    | sessionId (int)<br>userId (int)<br>itemInSession (int)<br>artist (text)<br>song (text)<br>firstName (text)<br>lastName (text)| userId<br>sessionId<br>itemInSession |
-| songLookup  | song (text)<br>userId (int)<br>firstName (text)<br>lastName (text)                                                            | song<br>userId |
+| Table Name  | Columns (Types) | Primary Key(s) |
+| ----------- | --------------- | -------------- |
+| songInfo    | sessionId (int)<br>itemInSession (int)<br>artist (text)<br>song (text)<br>length (float) | sessionId<br>itemInSession |
+| userInfo    | sessionId (int)<br>userId (int)<br>itemInSession (int)<br>artist (text)<br>song (text)<br>firstName (text)<br>lastName (text) | userId<br>sessionId<br>itemInSession |
+| songLookup  | song (text)<br>userId (int)<br>firstName (text)<br>lastName (text) | song<br>userId |
 
 ## Instructions
 
